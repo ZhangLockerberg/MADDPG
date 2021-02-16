@@ -7,21 +7,21 @@
 
 ### Introduction
 
-For this Udacity project, I used a single DDPG agent to solve the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) multi-agent collaboration environment.
+For this Udacity project, a single DDPG agent is used to solve the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) multi-agent collaboration environment.
 
 ![Trained Agent][image1]
 
-In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1.  If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01.  Thus, the goal of each agent is to keep the ball in play.
+In this environment, two agents control ping-pong rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1.  If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01.  Thus, the goal of each agent is to keep the ball in play.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
 ### Getting Started
 
-Codes were written using Python3.6.2, run this to install necessary packages:
+Codes were written using Python 3.6.2, run this to install necessary packages:
 
 `pip install -r requirements.txt`
 
-The Unity environment `Tennis.app` only runs on Macs, for Windows users, download the Windows 32-bit version [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip).
+For Windows users, download the Windows 32-bit version [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip).
 
 Please follow the instruction in the [Udacity DRLND Instructions](https://github.com/udacity/deep-reinforcement-learning#dependencies) on setting up the environment.
 
@@ -35,4 +35,3 @@ Please follow the instruction in the [Udacity DRLND Instructions](https://github
 
 ### Sources
 - [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)
-- Udacity Learning Materials
